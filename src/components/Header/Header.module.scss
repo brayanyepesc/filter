@@ -1,0 +1,22 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.header {
+    @include flexSpaceBetween;
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header_left_logo, .header_left_menu_icon, .header_right_search_icon, .header_right_cart_icon {
+    color: white;
+    width: $widthIcons;
+}
+
+.header_left, .header_right {
+    @include flexSpaceBetween;
+    gap: 10px;
+    padding: 0 20px;
+}
