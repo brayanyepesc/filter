@@ -1,0 +1,46 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.footer_links, .footer_instagram, .footer_instagram_wrapper {
+    @include flexColCenter;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer_links {
+    padding: 20px;
+}
+
+.footer_link {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer_creditos {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_instagram_wrapper {
+    background-color: $blue;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+}
+
+.footer_instagram_icon {
+    height: 22px;
+    width: 22px;
+}
+
+.footer_politica {
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
+}

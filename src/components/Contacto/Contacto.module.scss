@@ -1,0 +1,44 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.contacto, .contacto_icon, .contacto_item {
+   @include flexColCenter;
+}
+
+.contacto {
+    background-color: black;
+    height: 209px;
+    width: 100%;
+}
+
+.contacto_title {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: $fontSizeXS;
+}
+
+.contacto_content {
+    @include flexRowCenter;
+}
+
+.contacto_item {
+    margin: 0 10px;
+}
+
+.contacto_chat_icon, .contacto_call_icon {
+    width: 32px;
+}
+
+.contacto_icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 70px;
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.contacto_icon_text {
+    color: white;
+    font-size: $fontSizeXS;
+}
