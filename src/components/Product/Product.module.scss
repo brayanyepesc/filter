@@ -1,2 +1,44 @@
 @import '../../styles/mixins';
 @import '../../styles/vars';
+
+.product {
+    border-radius: $borderRounded;
+    border: 1px solid $gray;
+}
+
+.product_content {
+    padding: 14px;
+}
+
+.product_image_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    .product_image {
+        height: 140px;
+        width: 137px;
+    }
+}
+
+.product_name, .product_description {
+    margin-bottom: 15px;
+}
+
+.product_name, .product_price {
+    font-size: $fontSizeS;
+}
+
+.product_description {
+    font-size: $fontSizeXS;
+}
+
+.product_btn {
+    background-color: whitesmoke;
+    border-top: 1px solid $gray;
+    border: none;
+    color: $blue;
+    font-size: $fontSizeXS;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+}

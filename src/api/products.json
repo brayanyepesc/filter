@@ -4,85 +4,85 @@
         {
             "uuid": 1,
             "id": 1,
-            "name": "Rubia Lorem Ipsum",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Rubia Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 75000
         },
         {
             "uuid": 2,
             "id": 2,
-            "name": "Morena Lorem xium",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Morena Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 45000
         },
         {
             "uuid": 3,
             "id": 3,
-            "name": "Roja Lorem polo",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Roja Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 26000
         },
         {
             "uuid": 4,
             "id": 1,
-            "name": "Rubia Lorem saah",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Rubia Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 35000
         },
         {
             "uuid": 5,
             "id": 2,
-            "name": "Morena Lorem auhs",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Morena Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 95000
         },
         {
             "uuid": 6,
             "id": 3,
-            "name": "Roja Lorem pial",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Roja Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 15000
         },
         {
             "uuid": 7,
             "id": 1,
-            "name": "Rubia Lorem Ipsum",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Rubia Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 75000
         },
         {
             "uuid": 8,
             "id": 2,
-            "name": "Morena Lorem reto",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Morena Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 45000
         },
         {
             "uuid": 9,
             "id": 3,
-            "name": "Roja Lorem tyus",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Roja Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 67000
         },
         {
             "uuid": 10,
             "id": 1,
-            "name": "Rubia Lorem pis",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Rubia Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 13000
         },
         {
             "uuid": 11,
             "id": 2,
-            "name": "Morena Lorem hau",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Morena Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 21000
         },
         {
             "uuid": 12,
             "id": 3,
-            "name": "Roja Lorem ahak",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "name": "Roja Lorem",
+            "description": "Lorem Ipsum is simply dummy text.",
             "price": 32000
         }
     ]

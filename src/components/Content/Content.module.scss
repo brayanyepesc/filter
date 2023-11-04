@@ -1,0 +1,29 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.content {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.content_title {
+    font-size: $fontSizeXL;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.content_wrapper_products {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    place-items: center;
+    padding: 20px;
+}
+
+@include desktop {
+    .content_wrapper_products {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
