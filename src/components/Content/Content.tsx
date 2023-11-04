@@ -1,13 +1,18 @@
 import Product from "../Product/Product";
+import { ContentPropsTypes, ProductType } from "./types";
 
-export default function Content (){
+export default function Content ({ type, products }: ContentPropsTypes){
     return (
         <div>
-            <h1>Productos</h1>
+            <h1>{type}</h1>
             <ul>
-                <Product />
-                <Product />
-                <Product />
+                {
+                    products.map(({ uuid }: ProductType) => (
+                        <li key={uuid}>
+                            <Product />
+                        </li>
+                    ))
+                }
             </ul>
         </div>
     )

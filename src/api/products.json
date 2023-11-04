@@ -1,0 +1,89 @@
+{
+    "type": "Cervezas",
+    "products": [
+        {
+            "uuid": 1,
+            "id": 1,
+            "name": "Rubia Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 75000
+        },
+        {
+            "uuid": 2,
+            "id": 2,
+            "name": "Morena Lorem xium",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 45000
+        },
+        {
+            "uuid": 3,
+            "id": 3,
+            "name": "Roja Lorem polo",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 26000
+        },
+        {
+            "uuid": 4,
+            "id": 1,
+            "name": "Rubia Lorem saah",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 35000
+        },
+        {
+            "uuid": 5,
+            "id": 2,
+            "name": "Morena Lorem auhs",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 95000
+        },
+        {
+            "uuid": 6,
+            "id": 3,
+            "name": "Roja Lorem pial",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 15000
+        },
+        {
+            "uuid": 7,
+            "id": 1,
+            "name": "Rubia Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 75000
+        },
+        {
+            "uuid": 8,
+            "id": 2,
+            "name": "Morena Lorem reto",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 45000
+        },
+        {
+            "uuid": 9,
+            "id": 3,
+            "name": "Roja Lorem tyus",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 67000
+        },
+        {
+            "uuid": 10,
+            "id": 1,
+            "name": "Rubia Lorem pis",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 13000
+        },
+        {
+            "uuid": 11,
+            "id": 2,
+            "name": "Morena Lorem hau",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 21000
+        },
+        {
+            "uuid": 12,
+            "id": 3,
+            "name": "Roja Lorem ahak",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "price": 32000
+        }
+    ]
+}
