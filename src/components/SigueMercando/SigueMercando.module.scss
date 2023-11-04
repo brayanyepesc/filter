@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.siguemercando {
+    @include flexRowSpaceBetween;
+    border-radius: $borderRounded;
+    border: 1px solid $gray;
+    margin: 20px;
+    padding: 10px;
+}

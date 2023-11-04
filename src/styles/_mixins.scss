@@ -39,3 +39,10 @@ $desktop-width: 1024px;
     justify-content: center;
     align-items: center;
 }
+
+@mixin flexRowSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
