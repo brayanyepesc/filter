@@ -1,11 +1,12 @@
 import styles from './Modal.module.scss'
 import CloseIcon from '../../assets/close.svg'
+import { ModalPropsTypes } from './types'
 
-export default function Modal () {
+export default function Modal ({ openModal, setOpenModal }: ModalPropsTypes) {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} hidden={openModal ? false : true}>
             <div className={styles.modal}>
-                <div className={styles.close}>
+                <div className={styles.close} onClick={() => setOpenModal(false)}>
                     <img src={CloseIcon} alt="close icon" className={styles.close_icon} />
                 </div>
                 <p className={styles.title}>Filtros</p>
