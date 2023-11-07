@@ -1,6 +1,7 @@
 import styles from './Modal.module.scss'
 import CloseIcon from '../../assets/close.svg'
 import { ModalPropsTypes } from './types'
+import FiltroIcon from '../../assets/filters.svg'
 
 export default function Modal ({ openModal, setOpenModal, filtros, setFiltros, filtrarAction, limpiarAction }: ModalPropsTypes) {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,7 +34,12 @@ export default function Modal ({ openModal, setOpenModal, filtros, setFiltros, f
                 </div>
                 <div className={styles.buttons}>
                     <button className={styles.button_limpiar} onClick={() => limpiarAction()}>LIMPIAR</button>
-                    <button className={styles.button_filtrar} onClick={() => filtrarAction(filtros)}>FILTRAR</button>
+                    <button className={styles.button_filtrar} onClick={() => filtrarAction(filtros)}>FILTRAR
+                    <img src={FiltroIcon} alt="filtro icon" className={styles.filtro_icon} />
+                    {
+                        filtros.length > 0 && (<div className={styles.filtros_number}>{filtros.length}</div>)
+                    }
+                    </button>
                 </div>
             </div>
         </div>

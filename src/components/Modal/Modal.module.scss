@@ -69,6 +69,22 @@
 }
 
 .button_filtrar {
+    @include flexRowCenter;
     background-color: $blue;
     color: white;
+}
+
+.filtros_number{
+    background-color: white;
+    color: black;
+    width: 26px;
+    height: 18px;
+    margin-left: 5px;
+    border-radius: 12px;
+}
+
+.filtro_icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
 }
