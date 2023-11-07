@@ -33,6 +33,13 @@ $desktop-width: 1024px;
     align-items: center;
 }
 
+@mixin flexColSpaceBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @mixin flexRowCenter {
     display: flex;
     flex-direction: row;

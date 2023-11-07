@@ -1,0 +1,74 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 50%);
+}
+
+.modal {
+    @include flexColSpaceBetween;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 375px;
+    background-color: white;
+    z-index: 100;
+}
+
+.close {
+    @include flexColCenter;
+    width: 40px;
+    height: 40px;
+    border: 1px solid $gray;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    z-index: 150;
+}
+
+.title {
+    font-weight: bold;
+    font-size: $fontSizeL;
+    margin-top: 20px;
+}
+
+.input {
+    @include flexRowSpaceBetween;
+    border-bottom: 1px solid whitesmoke;
+    margin: 10px 0;
+    font-size: $fontSizeS;
+    width: 100%;
+    input {
+        appearance: none;
+        width: 24px;
+        height: 24px;
+        border: 1px solid $gray;
+        border-radius: $borderRounded;
+    }
+    input:checked {
+        background-color: $blue;
+    }
+}
+
+.buttons {
+    @include flexRowCenter;
+    width: 100%;
+}
+
+.button_limpiar, .button_filtrar {
+    width: 100%;
+    height: 40px;
+    margin: 0 10px;
+    border: none;
+    border-radius: $borderRounded;
+    font-weight: bold;
+}
+
+.button_filtrar {
+    background-color: $blue;
+    color: white;
+}
