@@ -11,14 +11,29 @@ import { useState } from "react"
 function App() {
   const { type, products } = data
   const [openModal, setOpenModal] = useState(false)
+  const [filtros, setFiltros] = useState([])
+  const [productsFiltered, setProductsFiltered] = useState(products)
+  const filtrarAction = (filtros: string[]) => {
+    if(filtros.length !== 0){
+      const filtered = products.filter(producto => filtros.includes(String(producto.id)));
+      setProductsFiltered(filtered)
+    } else {
+      setProductsFiltered(products)
+    }
+    setOpenModal(false)
+  }
+  const limpiarAction = () => {
+    setProductsFiltered(products)
+    setOpenModal(false)
+  }
   return (
     <div className={styles.container}>
       <Header />
-      <Content type={type} products={products}/>
+      <Content type={type} products={productsFiltered}/>
       <SigueMercando />
       <Footer />
       <FiltrarButton setOpenModal={setOpenModal}/>
-      <Modal openModal={openModal} setOpenModal={setOpenModal}/>
+      <Modal openModal={openModal} setOpenModal={setOpenModal} filtros={filtros} setFiltros={setFiltros} filtrarAction={filtrarAction} limpiarAction={limpiarAction}/>
     </div>
   )
 }
