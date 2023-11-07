@@ -2,52 +2,52 @@
 @import '../../styles/vars';
 
 .wrapper {
+    background-color: rgb(0, 0, 0, 50%);
+    bottom: 0;
+    height: 100%;
     position: fixed;
     width: 100%;
-    height: 100%;
-    bottom: 0;
-    background-color: rgb(0, 0, 0, 50%);
 }
 
 .modal {
     @include flexColSpaceBetween;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 375px;
     background-color: white;
+    bottom: 0;
+    height: 375px;
+    position: fixed;
+    width: 100%;
     z-index: 100;
 }
 
 .close {
     @include flexColCenter;
-    width: 40px;
-    height: 40px;
     border: 1px solid $gray;
+    height: 40px;
     position: absolute;
     right: 10px;
     top: -10px;
+    width: 40px;
     z-index: 150;
 }
 
 .title {
-    font-weight: bold;
     font-size: $fontSizeL;
+    font-weight: bold;
     margin-top: 20px;
 }
 
 .input {
     @include flexRowSpaceBetween;
     border-bottom: 1px solid whitesmoke;
-    margin: 10px 0;
     font-size: $fontSizeS;
+    margin: 10px 0;
     width: 100%;
     input {
         appearance: none;
-        width: 24px;
-        height: 24px;
-        border: 1px solid $gray;
         border-radius: $borderRounded;
+        border: 1px solid $gray;
+        height: 24px;
+        width: 24px;
     }
     input:checked {
         background-color: $blue;
@@ -60,12 +60,12 @@
 }
 
 .button_limpiar, .button_filtrar {
-    width: 100%;
+    border-radius: $borderRounded;
+    border: none;
+    font-weight: bold;
     height: 40px;
     margin: 0 10px;
-    border: none;
-    border-radius: $borderRounded;
-    font-weight: bold;
+    width: 100%;
 }
 
 .button_filtrar {
@@ -76,15 +76,15 @@
 
 .filtros_number{
     background-color: white;
+    border-radius: 12px;
     color: black;
-    width: 26px;
     height: 18px;
     margin-left: 5px;
-    border-radius: 12px;
+    width: 26px;
 }
 
 .filtro_icon {
-    width: 18px;
     height: 18px;
     margin-left: 5px;
+    width: 18px;
 }
