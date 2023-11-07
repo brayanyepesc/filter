@@ -14,6 +14,7 @@ export default function Modal ({ openModal, setOpenModal, filtros, setFiltros, f
             setFiltros(filtrosRemoved)
         }
     }
+    const disableButton = filtros.length > 0 ? false : true
     return (
         <div className={styles.wrapper} hidden={openModal ? false : true}>
             <div className={styles.modal}>
@@ -30,7 +31,7 @@ export default function Modal ({ openModal, setOpenModal, filtros, setFiltros, f
                     ))
                 }
                 <div className={styles.buttons}>
-                    <button className={styles.button_limpiar} onClick={() => limpiarAction()}>LIMPIAR</button>
+                    <button className={styles.button_limpiar} onClick={() => limpiarAction()} disabled={disableButton}>LIMPIAR</button>
                     <button className={styles.button_filtrar} onClick={() => filtrarAction(filtros)}>FILTRAR
                     <img src={FiltroIcon} alt="filtro icon" className={styles.filtro_icon} />
                     {
