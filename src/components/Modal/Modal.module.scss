@@ -21,6 +21,8 @@
 
 .close {
     @include flexColCenter;
+    background-color: white;
+    border-radius: $borderRounded;
     border: 1px solid $gray;
     height: 40px;
     position: absolute;
